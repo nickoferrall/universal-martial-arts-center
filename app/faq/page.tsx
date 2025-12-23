@@ -2,18 +2,18 @@ import { Metadata } from "next";
 import { HomeContent } from "@/components/home-content";
 
 export const metadata: Metadata = {
-  title: "FAQ - Proehlific Park Greensboro",
+  title: "FAQ - Universal Martial Arts Center | Chino Hills, CA",
   description:
-    "Frequently asked questions about Proehlific Park in Greensboro, NC. Learn about memberships, programs, youth activities, and more.",
+    "Frequently asked questions about Universal Martial Arts Center in Chino Hills, CA. Learn about classes, programs, memberships, and martial arts training.",
   alternates: {
-    canonical: "https://proehlificpark.com/faq",
+    canonical: "https://umacchinohills.com/faq",
   },
   openGraph: {
-    title: "FAQ - Proehlific Park Greensboro",
+    title: "FAQ - Universal Martial Arts Center | Chino Hills, CA",
     description:
-      "Frequently asked questions about Proehlific Park in Greensboro, NC. Learn about memberships, programs, youth activities, and more.",
-    url: "https://proehlificpark.com/faq",
-    images: ["/proehlific-facility.jpg"],
+      "Frequently asked questions about Universal Martial Arts Center in Chino Hills, CA. Learn about classes, programs, memberships, and martial arts training.",
+    url: "https://umacchinohills.com/faq",
+    images: ["/umac-facility.jpg"],
   },
 };
 

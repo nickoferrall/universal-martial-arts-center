@@ -2,18 +2,18 @@ import { Metadata } from "next";
 import { HomeContent } from "@/components/home-content";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Proehlific Park Greensboro",
+  title: "Contact Us - Universal Martial Arts Center | Chino Hills, CA",
   description:
-    "Contact Proehlific Park in Greensboro, NC. Get directions, phone number, and email. Visit us at 4517 Jessup Grove Rd.",
+    "Contact Universal Martial Arts Center in Chino Hills, CA. Get directions, phone number, and email. Visit us at 14610 Pipeline Ave, Chino, CA 91710.",
   alternates: {
-    canonical: "https://proehlificpark.com/contact",
+    canonical: "https://umacchinohills.com/contact",
   },
   openGraph: {
-    title: "Contact Us - Proehlific Park Greensboro",
+    title: "Contact Us - Universal Martial Arts Center | Chino Hills, CA",
     description:
-      "Contact Proehlific Park in Greensboro, NC. Get directions, phone number, and email. Visit us at 4517 Jessup Grove Rd.",
-    url: "https://proehlificpark.com/contact",
-    images: ["/proehlific-facility.jpg"],
+      "Contact Universal Martial Arts Center in Chino Hills, CA. Get directions, phone number, and email. Visit us at 14610 Pipeline Ave, Chino, CA 91710.",
+    url: "https://umacchinohills.com/contact",
+    images: ["/umac-facility.jpg"],
   },
 };
 

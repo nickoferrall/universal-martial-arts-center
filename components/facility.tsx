@@ -82,10 +82,10 @@ export function Facility() {
         <div className="mb-20">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              About Proehlific Park
+              About Universal Martial Arts Center
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Your home for sports, fitness, and community
+              The best martial arts center in Chino Hills and the Inland Empire
             </p>
           </div>
 
@@ -93,19 +93,19 @@ export function Facility() {
             <CardContent className="p-8 md:p-12">
               <div className="space-y-4 text-muted-foreground leading-relaxed text-lg">
                 <p>
-                  The Proehlific Park mission is to{" "}
-                  <span className="font-bold text-foreground">inspire</span>,{" "}
-                  <span className="font-bold text-foreground">cultivate</span>, and{" "}
-                  <span className="font-bold text-foreground">ignite</span> the P.O.W.E.R. within each of us no matter our age using sport, exercise, play and spirituality as tools for life.
+                  Universal Martial Arts Center is dedicated to{" "}
+                  <span className="font-bold text-foreground">respect</span>,{" "}
+                  <span className="font-bold text-foreground">discipline</span>, and{" "}
+                  <span className="font-bold text-foreground">excellence</span>. Our mission is to provide the highest quality martial arts training in Chino Hills and the Inland Empire.
                 </p>
                 <p>
-                  Founded by former NFL wide receiver Ricky Proehl, Proehlific Park is Greensboro&apos;s comprehensive sports training center serving athletes and families of all ages. From our state-of-the-art fitness center to our youth programs and sports leagues, we provide everything you need to achieve your goals.
+                  We offer comprehensive martial arts programs including Krav Maga, Brazilian Jiu Jitsu, Fitness Classes, Kids Krav Maga, and Kids Karate. Our expert instructors are committed to helping students of all ages develop self-defense skills, physical fitness, mental discipline, and confidence.
                 </p>
                 <p>
-                  Our dedicated staff and family-oriented community create an encouraging environment where everyone can thrive. Whether you&apos;re looking for personal training, group fitness classes, youth sports, or after school care, we have programs designed for you.
+                  Our family-oriented community creates a supportive environment where everyone can thrive. Whether you&apos;re looking for practical self-defense training, fitness classes, or programs for your children, we have classes designed to meet your needs.
                 </p>
                 <p className="font-semibold text-foreground text-xl pt-4">
-                  Please stop by and take a tour! We would love to meet you and together we can enjoy the P.O.W.E.R. of Play!
+                  Respect All. Fear None. Visit us and take a tour! We would love to meet you and show you how martial arts can transform your life.
                 </p>
               </div>
             </CardContent>
@@ -136,9 +136,9 @@ export function Facility() {
                         Address
                       </h4>
                       <p className="text-sm text-muted-foreground">
-                        4517 Jessup Grove Rd
+                        14610 Pipeline Ave
                         <br />
-                        Greensboro, NC 27410
+                        Chino, CA 91710
                       </p>
                     </div>
                   </div>
@@ -150,10 +150,10 @@ export function Facility() {
                     <div>
                       <h4 className="font-bold text-foreground mb-1">Phone</h4>
                       <a
-                        href="tel:3366655233"
+                        href="tel:9095971710"
                         className="text-sm text-primary hover:text-primary/80 transition-colors"
                       >
-                        (336) 665-5233
+                        (909) 597-1710
                       </a>
                     </div>
                   </div>
@@ -165,10 +165,10 @@ export function Facility() {
                     <div>
                       <h4 className="font-bold text-foreground mb-1">Email</h4>
                       <a
-                        href="mailto:info@proehlificpark.com"
+                        href="mailto:info@umacchinohills.com"
                         className="text-sm text-primary hover:text-primary/80 transition-colors"
                       >
-                        info@proehlificpark.com
+                        info@umacchinohills.com
                       </a>
                     </div>
                   </div>
@@ -180,14 +180,14 @@ export function Facility() {
               <CardContent className="p-0">
                 <div className="aspect-[16/9] w-full">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.5!2d-79.8898!3d36.0726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s4517+Jessup+Grove+Rd%2C+Greensboro%2C+NC+27410!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.5!2d-117.71547!3d34.01794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x145657538f78d87!2sUniversal+Martial+Arts+Centers!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Proehlific Park Location"
+                    title="Universal Martial Arts Center Location"
                   />
                 </div>
               </CardContent>
@@ -268,7 +268,7 @@ export function Facility() {
                         required
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="(336) 665-5233"
+                        placeholder="(909) 597-1710"
                         className="border-2 h-12"
                       />
                     </div>
@@ -298,8 +298,8 @@ export function Facility() {
 
                   <p className="text-xs text-muted-foreground text-center">
                     By submitting this form, you agree to receive SMS messages
-                    from Proehlific Park to provide the information you requested
-                    about programs and membership. Message and data rates may
+                    from Universal Martial Arts Center to provide the information you requested
+                    about classes and programs. Message and data rates may
                     apply. Reply STOP to opt-out anytime.
                   </p>
                 </form>

@@ -64,7 +64,7 @@ export function Schedule() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Facility Hours</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            View our weekly schedule and join us at Proehlific Park
+            View our weekly schedule and join us at Universal Martial Arts Center
           </p>
         </div>
 

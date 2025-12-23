@@ -2,18 +2,18 @@ import { Metadata } from "next";
 import { HomeContent } from "@/components/home-content";
 
 export const metadata: Metadata = {
-  title: "Programs - Proehlific Park Greensboro",
+  title: "Classes & Programs - Universal Martial Arts Center | Chino Hills, CA",
   description:
-    "Explore programs at Proehlific Park in Greensboro, NC. Fitness, sports leagues, youth programs, Summer Blast camp, and more for all ages.",
+    "Explore martial arts programs at Universal Martial Arts Center in Chino Hills, CA. Krav Maga, Brazilian Jiu Jitsu, Fitness Classes, Kids Programs, and more.",
   alternates: {
-    canonical: "https://proehlificpark.com/programs",
+    canonical: "https://umacchinohills.com/programs",
   },
   openGraph: {
-    title: "Programs - Proehlific Park Greensboro",
+    title: "Classes & Programs - Universal Martial Arts Center | Chino Hills, CA",
     description:
-      "Explore programs at Proehlific Park in Greensboro, NC. Fitness, sports leagues, youth programs, Summer Blast camp, and more for all ages.",
-    url: "https://proehlificpark.com/programs",
-    images: ["/proehlific-facility.jpg"],
+      "Explore martial arts programs at Universal Martial Arts Center in Chino Hills, CA. Krav Maga, Brazilian Jiu Jitsu, Fitness Classes, Kids Programs, and more.",
+    url: "https://umacchinohills.com/programs",
+    images: ["/umac-facility.jpg"],
   },
 };
 

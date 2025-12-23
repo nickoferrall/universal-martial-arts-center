@@ -8,139 +8,144 @@ import { useState } from "react"
 
 const programs = [
   {
-    title: "Fitness",
+    title: "Krav Maga",
     description:
-      "Access our fully equipped gym with state-of-the-art weight lifting equipment, cardio machines, locker rooms, saunas, and showers. All memberships include a free one-hour fitness consultation.",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/fitness-main-212393.jpg",
+      "Learn practical self-defense techniques with Krav Maga, the world's most effective self-defense system. Build confidence, fitness, and real-world skills in a supportive environment.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6438/Krav-Maga-150008.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Our state-of-the-art fitness facility offers everything you need to achieve your goals. With your membership, you'll have access to our facility any time during open hours.
+          Krav Maga is a practical self-defense system designed for real-world situations. Our expert instructors teach techniques that work regardless of your size or strength.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Included Amenities:</h4>
+          <h4 className="font-semibold text-foreground">What You'll Learn:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Weight Room:</strong> Complete lifting equipment for strength training</li>
-            <li><strong>Cardio Machines:</strong> Treadmills, ellipticals, stationary bikes, and more</li>
-            <li><strong>Locker Rooms:</strong> Private facilities with saunas and showers</li>
-            <li><strong>Free WiFi:</strong> Stay connected during your workout</li>
-            <li><strong>Personal Training:</strong> Optional one-on-one coaching available</li>
+            <li><strong>Self-Defense:</strong> Practical techniques for real-world situations</li>
+            <li><strong>Fitness:</strong> Improve strength, endurance, and flexibility</li>
+            <li><strong>Confidence:</strong> Build mental and physical confidence</li>
+            <li><strong>Discipline:</strong> Develop focus and self-control</li>
+            <li><strong>All Levels:</strong> Classes for beginners to advanced students</li>
           </ul>
         </div>
       </div>
     ),
   },
   {
-    title: "Group Exercise",
+    title: "Brazilian Jiu Jitsu",
     description:
-      "Join our group exercise classes designed to keep you interested and motivated. From cycling to fitness classes, we have something for everyone looking to lose weight and have fun.",
-    image: "https://res.cloudinary.com/display97/image/upload/7466/pick-up-56-213370.jpg",
+      "Master the art of ground fighting with Brazilian Jiu Jitsu. Develop technique, strength, and mental discipline while learning one of the most effective martial arts for self-defense.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6438/BJJ-150009.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Our highly trained instructors guide you through varied workouts in a supportive group environment. Group classes are a great way to stay motivated and meet new people.
+          Brazilian Jiu Jitsu focuses on ground fighting and submission techniques. It's perfect for those who want to learn effective self-defense while improving fitness and flexibility.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Class Options:</h4>
+          <h4 className="font-semibold text-foreground">Program Benefits:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Cycle Studio:</strong> High-energy cycling workouts with trained instructors</li>
-            <li><strong>Group Fitness:</strong> Various formats to keep you challenged</li>
-            <li><strong>Personal Training:</strong> One-on-one attention for faster results</li>
+            <li><strong>Ground Fighting:</strong> Master techniques for ground combat</li>
+            <li><strong>Submission Holds:</strong> Learn effective control and submission techniques</li>
+            <li><strong>Fitness:</strong> Improve strength, flexibility, and cardiovascular health</li>
+            <li><strong>Mental Focus:</strong> Develop problem-solving and strategic thinking</li>
+            <li><strong>Belt System:</strong> Progress through ranks with structured curriculum</li>
           </ul>
         </div>
       </div>
     ),
   },
   {
-    title: "Sports",
+    title: "Fitness Classes",
     description:
-      "Get moving with our youth and adult sports leagues and drop-in games! We offer Basketball, Baseball, Football, Soccer, Lacrosse, and more. There's never a wrong time to get started!",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/sports-main-212395.jpg",
+      "Get in shape with our dynamic fitness classes designed to improve strength, endurance, and overall health. Fun, challenging workouts for all fitness levels.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6438/The-Best-Martial-Arts-Center-in-Chino-Hills-and-the-Inland-Empire-150007.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Proehlific Park offers comprehensive sports programming for athletes of all ages and skill levels. Join a league or come for drop-in games.
+          Our fitness classes combine martial arts principles with traditional fitness training to create effective, engaging workouts that help you achieve your fitness goals.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Sports We Offer:</h4>
+          <h4 className="font-semibold text-foreground">Class Features:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Basketball:</strong> Youth and adult leagues plus open gym</li>
-            <li><strong>Baseball:</strong> Training and league play</li>
-            <li><strong>Football:</strong> Skills training and team sports</li>
-            <li><strong>Soccer:</strong> Indoor and outdoor programs</li>
-            <li><strong>Lacrosse:</strong> Growing program for all skill levels</li>
+            <li><strong>Cardio Training:</strong> High-intensity workouts to burn calories</li>
+            <li><strong>Strength Building:</strong> Build muscle and improve strength</li>
+            <li><strong>Flexibility:</strong> Improve range of motion and prevent injury</li>
+            <li><strong>Group Motivation:</strong> Work out in a supportive group environment</li>
+            <li><strong>All Levels:</strong> Modifications for beginners to advanced</li>
           </ul>
         </div>
       </div>
     ),
   },
   {
-    title: "Youth Programs",
+    title: "Kids Krav Maga",
     description:
-      "When school is out, come on in! We offer After School Care, Summer Camps, and child care on teacher workdays, holidays, and inclement weather closings. Kids love sports, games, and arts & crafts!",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/youth-main-212394.jpg",
+      "Give your child the gift of confidence and self-defense skills. Our Kids Krav Maga program teaches practical self-defense while building discipline, respect, and fitness.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6438/Kids-Krav-Maga-2-151498.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Our youth programs are designed to keep kids active, engaged, and having fun. Our dedicated staff creates a safe, nurturing environment for children of all ages.
+          Our Kids Krav Maga program is designed specifically for children, teaching age-appropriate self-defense techniques while building confidence, discipline, and respect.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Programs Include:</h4>
+          <h4 className="font-semibold text-foreground">Program Benefits:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>After School Care:</strong> Safe, fun environment after school hours</li>
-            <li><strong>Summer Blast Camp:</strong> Full summer programming with activities</li>
-            <li><strong>Holiday Care:</strong> Coverage during school breaks and closings</li>
-            <li><strong>Sports & Games:</strong> Dodgeball, arts and crafts, and more</li>
+            <li><strong>Self-Defense:</strong> Learn practical techniques for real situations</li>
+            <li><strong>Confidence:</strong> Build self-esteem and mental strength</li>
+            <li><strong>Discipline:</strong> Develop focus, respect, and self-control</li>
+            <li><strong>Fitness:</strong> Stay active and healthy</li>
+            <li><strong>Bully Prevention:</strong> Learn to handle bullying situations</li>
           </ul>
         </div>
       </div>
     ),
   },
   {
-    title: "PSP Training",
+    title: "Kids Karate",
     description:
-      "Our Proehlific Sports Performance program offers elite training for serious athletes looking to take their game to the next level with professional coaching and facilities.",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/psp-main-212328.jpg",
+      "Traditional karate training for children that builds character, discipline, and respect. Our Kids Karate program combines martial arts skills with life lessons.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6438/Kids-Martial-Arts-142943.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          PSP (Proehlific Sports Performance) is our elite training program designed for athletes who want to maximize their potential. Work with experienced coaches in a professional setting.
+          Kids Karate teaches traditional martial arts values while developing physical skills. Children learn respect, discipline, and self-control in a fun, structured environment.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Training Includes:</h4>
+          <h4 className="font-semibold text-foreground">What Kids Learn:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Strength & Conditioning:</strong> Build power and endurance</li>
-            <li><strong>Speed & Agility:</strong> Improve quickness and reaction time</li>
-            <li><strong>Sport-Specific Training:</strong> Tailored to your sport</li>
-            <li><strong>Professional Coaching:</strong> Learn from experienced trainers</li>
+            <li><strong>Karate Techniques:</strong> Learn proper form and technique</li>
+            <li><strong>Respect:</strong> Develop respect for instructors, peers, and themselves</li>
+            <li><strong>Discipline:</strong> Build focus and self-control</li>
+            <li><strong>Fitness:</strong> Improve coordination, balance, and strength</li>
+            <li><strong>Belt System:</strong> Progress through ranks with achievement</li>
           </ul>
         </div>
       </div>
     ),
   },
   {
-    title: "Facility Rentals",
+    title: "Fitness for California Charter School",
     description:
-      "Host your event, birthday party, or team practice at Proehlific Park. Our versatile facility spaces are available for rental with full amenities and support staff.",
-    image: "https://res.cloudinary.com/display97/image/upload/7466/summer-blast-41-255680.jpg",
+      "Specialized fitness programs designed for California Charter School students. Build strength, endurance, and healthy habits through structured physical education.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6438/Fitness-146225.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Looking for a venue for your next event? Proehlific Park offers flexible rental options for parties, team events, corporate gatherings, and more.
+          Our Charter School Fitness program provides structured physical education that meets California state requirements while keeping students active and healthy.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Rental Options:</h4>
+          <h4 className="font-semibold text-foreground">Program Features:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Birthday Parties:</strong> Make their day special</li>
-            <li><strong>Team Events:</strong> Practice and game space</li>
-            <li><strong>Corporate Events:</strong> Team building and meetings</li>
-            <li><strong>Private Events:</strong> Custom arrangements available</li>
+            <li><strong>Structured Curriculum:</strong> Meets state PE requirements</li>
+            <li><strong>Fitness Assessment:</strong> Track progress and improvement</li>
+            <li><strong>Variety of Activities:</strong> Keep students engaged and motivated</li>
+            <li><strong>Healthy Habits:</strong> Teach lifelong fitness principles</li>
+            <li><strong>Certified Instructors:</strong> Qualified PE instruction</li>
           </ul>
         </div>
       </div>
@@ -205,39 +210,40 @@ export function Classes() {
           ))}
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-100 via-emerald-50 to-slate-100 p-12 shadow-xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 border border-emerald-200 text-emerald-700 text-sm font-medium mb-6">
-              <Info className="h-4 w-4" />
-              Take a Tour
-            </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Experience Proehlific Park</h2>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl">
-              Please stop by and take a tour! We would love to meet you and show you our awesome facility. Become a member of the Park and together we can enjoy the P.O.W.E.R. of Play!
-            </p>
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-8">
-              <Button
-                onClick={scrollToForm}
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground cursor-pointer"
-              >
-                Request More Info
-              </Button>
-              <p className="text-sm text-muted-foreground">Programs for all ages • Family-friendly facility</p>
-            </div>
-            <div className="relative rounded-2xl overflow-hidden shadow-lg">
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                controls
-                className="w-full h-auto"
-                poster="https://res.cloudinary.com/display97/video/upload/so_0/dawynyrmvdjvs7xlinsy.jpg"
-              >
-                <source src="https://res.cloudinary.com/display97/video/upload/vc_auto/dawynyrmvdjvs7xlinsy.mp4" type="video/mp4" />
-                <source src="https://res.cloudinary.com/display97/video/upload/vc_auto/dawynyrmvdjvs7xlinsy.webm" type="video/webm" />
-              </video>
+        <div className="max-w-2xl mx-auto">
+          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-primary/90 p-12 shadow-xl">
+            <div className="absolute bottom-0 right-0 w-0 h-0 border-l-[200px] border-l-transparent border-b-[200px] border-b-slate-900/90" />
+            <div className="relative z-10">
+              <p className="text-white/90 text-sm font-semibold tracking-widest uppercase mb-2">Membership</p>
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-10">Try Any Class Free for 1 Week</h2>
+              
+              <div className="space-y-0">
+                {[
+                  "Krav Maga",
+                  "Fitness Classes",
+                  "Brazilian Jiu Jitsu",
+                  "Kids Krav Maga",
+                  "Kids Karate"
+                ].map((className, index) => (
+                  <div key={index} className="flex items-center justify-between py-5 border-t border-white/20">
+                    <span className="text-white font-medium text-lg">{className}</span>
+                    <div className="flex items-center gap-3">
+                      <span className="text-white font-bold text-3xl">FREE</span>
+                      <span className="text-white/80 text-lg">/ 1 Week</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              
+              <div className="mt-10">
+                <Button
+                  onClick={scrollToForm}
+                  size="lg"
+                  className="bg-white text-primary hover:bg-white/90 font-semibold cursor-pointer"
+                >
+                  Claim Your Free Week
+                </Button>
+              </div>
             </div>
           </div>
         </div>

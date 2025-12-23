@@ -3,33 +3,33 @@ import { Dumbbell, Users, GraduationCap, Calendar, Heart, Trophy } from "lucide-
 const features = [
   {
     icon: Dumbbell,
-    title: "Fitness & Weight Room",
-    description: "State-of-the-art weight lifting equipment and cardio machines with 24/7 member access during open hours",
+    title: "Krav Maga",
+    description: "Practical self-defense system for real-world situations. Build confidence, fitness, and effective self-defense skills",
   },
   {
     icon: Users,
-    title: "Group Exercise Classes",
-    description: "Cycling, fitness classes, and group workouts designed to help you lose weight and have fun",
+    title: "Brazilian Jiu Jitsu",
+    description: "Master ground fighting and submission techniques. Develop strength, flexibility, and mental discipline",
   },
   {
     icon: GraduationCap,
-    title: "Youth Programs",
-    description: "After school care, summer camps, and youth sports leagues for kids of all ages",
+    title: "Kids Programs",
+    description: "Kids Krav Maga and Kids Karate programs designed to build confidence, discipline, and respect",
   },
   {
     icon: Trophy,
-    title: "Sports Training",
-    description: "Basketball, baseball, football, soccer, lacrosse, and more for youth and adults",
+    title: "Fitness Classes",
+    description: "Dynamic fitness classes combining martial arts principles with traditional fitness training",
   },
   {
     icon: Calendar,
-    title: "Summer Blast Camp",
-    description: "Fun-filled summer program featuring sports, games, arts and crafts, and more activities",
+    title: "Charter School Fitness",
+    description: "Structured physical education programs for California Charter School students",
   },
   {
     icon: Heart,
-    title: "Kids Club & Child Care",
-    description: "Leave your child in the care of our qualified staff while you focus on your workout",
+    title: "Self-Defense & Discipline",
+    description: "Learn practical self-defense while developing mental strength, focus, and respect",
   },
 ]
 
@@ -42,7 +42,7 @@ export function Services() {
             What We <span className="text-primary">Offer</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            More than a gym - a community dedicated to helping you and your family achieve your goals
+            More than a martial arts school - a community dedicated to helping you and your family achieve your goals through discipline, respect, and excellence
           </p>
         </div>
 

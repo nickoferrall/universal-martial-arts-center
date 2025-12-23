@@ -7,53 +7,52 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Proehlific Park - Greensboro's Comprehensive Sports Training Center",
+  title: "Universal Martial Arts Center | Martial Arts in Chino Hills, CA",
   description:
-    "Find the P.O.W.E.R. in Play at Proehlific Park. Greensboro's comprehensive sports training center for all ages offering fitness, sports, youth programs, and more.",
+    "The best martial arts center in Chino Hills and the Inland Empire. Offering Krav Maga, Brazilian Jiu Jitsu, Fitness Classes, and Kids Programs. Respect All. Fear None.",
   keywords: [
-    "Proehlific Park",
-    "Greensboro gym",
-    "sports complex Greensboro",
-    "fitness center Greensboro",
-    "youth sports Greensboro",
-    "sports training Greensboro",
-    "Summer Blast",
-    "after school program Greensboro",
-    "kids sports Greensboro",
-    "personal training Greensboro",
-    "cycling classes Greensboro",
-    "group fitness Greensboro",
+    "Universal Martial Arts Center",
+    "Chino Hills martial arts",
+    "Krav Maga Chino Hills",
+    "Brazilian Jiu Jitsu Chino Hills",
+    "martial arts Chino Hills",
+    "self defense Chino Hills",
+    "kids karate Chino Hills",
+    "kids Krav Maga Chino Hills",
+    "fitness classes Chino Hills",
+    "martial arts Inland Empire",
+    "Chino Hills CA",
   ],
-  authors: [{ name: "Proehlific Park" }],
-  creator: "Proehlific Park",
-  publisher: "Proehlific Park",
-  metadataBase: new URL("https://proehlificpark.com"),
+  authors: [{ name: "Universal Martial Arts Center" }],
+  creator: "Universal Martial Arts Center",
+  publisher: "Universal Martial Arts Center",
+  metadataBase: new URL("https://umacchinohills.com"),
   alternates: {
-    canonical: "https://proehlificpark.com",
+    canonical: "https://umacchinohills.com",
   },
   openGraph: {
-    title: "Proehlific Park - Greensboro's Comprehensive Sports Training Center",
+    title: "Universal Martial Arts Center | Martial Arts in Chino Hills, CA",
     description:
-      "Find the P.O.W.E.R. in Play at Proehlific Park. Greensboro's comprehensive sports training center for all ages.",
-    url: "https://proehlificpark.com",
-    siteName: "Proehlific Park",
+      "The best martial arts center in Chino Hills and the Inland Empire. Offering Krav Maga, Brazilian Jiu Jitsu, Fitness Classes, and Kids Programs.",
+    url: "https://umacchinohills.com",
+    siteName: "Universal Martial Arts Center",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/proehlific-facility.jpg",
+        url: "/umac-facility.jpg",
         width: 1200,
         height: 630,
-        alt: "Proehlific Park Sports Complex in Greensboro, North Carolina",
+        alt: "Universal Martial Arts Center in Chino Hills, California",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Proehlific Park - Greensboro's Comprehensive Sports Training Center",
+    title: "Universal Martial Arts Center | Martial Arts in Chino Hills, CA",
     description:
-      "Find the P.O.W.E.R. in Play at Proehlific Park. Greensboro's comprehensive sports training center for all ages.",
-    images: ["/proehlific-facility.jpg"],
+      "The best martial arts center in Chino Hills and the Inland Empire. Offering Krav Maga, Brazilian Jiu Jitsu, Fitness Classes, and Kids Programs.",
+    images: ["/umac-facility.jpg"],
   },
   robots: {
     index: true,
@@ -71,94 +70,93 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "SportsActivityLocation",
-  name: "Proehlific Park",
-  image: "https://proehlificpark.com/proehlific-facility.jpg",
-  "@id": "https://proehlificpark.com",
-  url: "https://proehlificpark.com",
-  telephone: "+1-336-665-5233",
+  "@type": "LocalBusiness",
+  name: "Universal Martial Arts Center",
+  image: "https://umacchinohills.com/umac-facility.jpg",
+  "@id": "https://umacchinohills.com",
+  url: "https://umacchinohills.com",
+  telephone: "+1-909-597-1710",
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "4517 Jessup Grove Rd",
-    addressLocality: "Greensboro",
-    addressRegion: "NC",
-    postalCode: "27410",
+    streetAddress: "14610 Pipeline Ave",
+    addressLocality: "Chino",
+    addressRegion: "CA",
+    postalCode: "91710",
     addressCountry: "US",
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 36.0726,
-    longitude: -79.8898,
+    latitude: 34.01794,
+    longitude: -117.71547,
   },
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "05:00",
+      opens: "09:00",
       closes: "21:00",
     },
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: "Saturday",
-      opens: "07:00",
+      opens: "09:00",
       closes: "18:00",
     },
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: "Sunday",
-      opens: "12:00",
-      closes: "18:00",
+      opens: "10:00",
+      closes: "17:00",
     },
   ],
   sameAs: [
-    "https://www.facebook.com/ProehlificPark/",
-    "https://www.instagram.com/proehlificpark/",
-    "https://x.com/proehlificpark",
-    "https://www.youtube.com/user/ProehlificPOWER",
+    "https://www.facebook.com/UMACfit/",
+    "https://www.instagram.com/umacchinohills/",
+    "https://twitter.com/umacchinohills",
   ],
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5",
-    reviewCount: "100",
+    reviewCount: "50",
   },
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "Programs & Services",
+    name: "Martial Arts Programs & Services",
     itemListElement: [
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Fitness & Weight Room",
+          name: "Krav Maga",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Group Exercise Classes",
+          name: "Brazilian Jiu Jitsu",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Youth Sports Programs",
+          name: "Fitness Classes",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Summer Blast Camp",
+          name: "Kids Krav Maga",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "After School Care",
+          name: "Kids Karate",
         },
       },
     ],
@@ -173,11 +171,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://proehlificpark.com" />
-        <meta name="geo.region" content="US-NC" />
-        <meta name="geo.placename" content="Greensboro" />
-        <meta name="geo.position" content="36.0726;-79.8898" />
-        <meta name="ICBM" content="36.0726, -79.8898" />
+        <link rel="canonical" href="https://umacchinohills.com" />
+        <meta name="geo.region" content="US-CA" />
+        <meta name="geo.placename" content="Chino Hills" />
+        <meta name="geo.position" content="34.01794;-117.71547" />
+        <meta name="ICBM" content="34.01794, -117.71547" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -2,15 +2,15 @@ import { Metadata } from "next";
 import { HomeContent } from "@/components/home-content";
 
 export const metadata: Metadata = {
-  title: "Testimonials - Proehlific Park Greensboro",
+  title: "Testimonials - Universal Martial Arts Center | Chino Hills, CA",
   description:
-    "Read testimonials from Proehlific Park members in Greensboro, NC. See what families and athletes have to say about their experience.",
+    "Read testimonials from Universal Martial Arts Center students in Chino Hills, CA. See what families and students have to say about their martial arts training experience.",
   openGraph: {
-    title: "Testimonials - Proehlific Park Greensboro",
+    title: "Testimonials - Universal Martial Arts Center | Chino Hills, CA",
     description:
-      "Read testimonials from Proehlific Park members in Greensboro, NC. See what families and athletes have to say about their experience.",
-    url: "https://proehlificpark.com/testimonials",
-    images: ["/proehlific-facility.jpg"],
+      "Read testimonials from Universal Martial Arts Center students in Chino Hills, CA. See what families and students have to say about their martial arts training experience.",
+    url: "https://umacchinohills.com/testimonials",
+    images: ["/umac-facility.jpg"],
   },
 };
 

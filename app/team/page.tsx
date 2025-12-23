@@ -2,18 +2,18 @@ import { Metadata } from "next"
 import { HomeContent } from "@/components/home-content"
 
 export const metadata: Metadata = {
-  title: "Our Team - Proehlific Park",
+  title: "Our Instructors - Universal Martial Arts Center | Chino Hills, CA",
   description:
-    "Meet the dedicated team at Proehlific Park. Our experienced directors, trainers, and staff are committed to helping you and your family achieve your fitness and athletic goals.",
+    "Meet the dedicated instructors at Universal Martial Arts Center. Our experienced martial arts instructors are committed to helping you and your family achieve your training goals.",
   keywords: [
-    "Proehlific Park team",
-    "Ricky Proehl",
-    "Greensboro fitness trainers",
-    "sports coaches Greensboro",
-    "personal trainers Greensboro",
+    "Universal Martial Arts Center instructors",
+    "Chino Hills martial arts instructors",
+    "Krav Maga instructors",
+    "Brazilian Jiu Jitsu instructors",
+    "martial arts teachers Chino Hills",
   ],
   alternates: {
-    canonical: "https://proehlificpark.com/team",
+    canonical: "https://umacchinohills.com/team",
   },
 }
 

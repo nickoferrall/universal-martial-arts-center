@@ -5,34 +5,34 @@ import { useState } from "react"
 
 const faqs = [
   {
-    question: "What programs does Proehlific Park offer?",
+    question: "What martial arts programs do you offer?",
     answer:
-      "Proehlific Park offers a comprehensive range of programs including fitness and weight room access, group exercise classes, cycling studio, youth sports leagues, adult sports leagues, after school care, Summer Blast camp, PSP (Proehlific Sports Performance) training, and facility rentals for events and parties.",
+      "Universal Martial Arts Center offers comprehensive martial arts training including Krav Maga for adults and kids, Brazilian Jiu Jitsu, Fitness Classes, Kids Karate, and specialized fitness programs for California Charter School students. We have programs for all ages and skill levels.",
   },
   {
-    question: "What are your membership options?",
+    question: "What are your class schedules and membership options?",
     answer:
-      "We offer various membership options to fit your needs. All memberships include access to our fitness center, locker rooms with saunas and showers, free WiFi, and a complimentary one-hour fitness consultation. Contact us to learn about current pricing and family rates.",
+      "We offer flexible class schedules throughout the week with morning, afternoon, and evening options. Membership options include monthly unlimited classes, family packages, and trial memberships. Contact us to learn about current pricing and find the best option for you and your family.",
   },
   {
-    question: "What is Summer Blast camp?",
+    question: "Do I need prior martial arts experience to start?",
     answer:
-      "Summer Blast is our popular summer program for kids when school is out. Children participate in a variety of activities including sports, games, dodgeball, arts and crafts, and more. Our dedicated staff creates a fun, safe environment where kids come home tired and happy! We also offer care during teacher workdays, holidays, and inclement weather closings.",
+      "Not at all! Our programs are designed for beginners and advanced students alike. Our expert instructors will guide you through the fundamentals and help you progress at your own pace. Whether you're completely new to martial arts or have previous experience, we have classes that will challenge and inspire you.",
   },
   {
-    question: "Do you offer after school programs?",
+    question: "What age groups do you teach?",
     answer:
-      "Yes! Our after school program provides a safe, fun environment for children after school hours. Kids participate in sports, games, and activities while making friends and staying active. Parents love the convenience and peace of mind our program provides.",
+      "We offer programs for all ages! Our Kids Krav Maga and Kids Karate programs are designed for children, while our adult programs welcome students of all ages. We also have specialized programs for teens and families. Contact us to find the right program for your age group.",
   },
   {
-    question: "What sports do you offer for youth and adults?",
+    question: "What makes your Krav Maga program different?",
     answer:
-      "We offer a wide range of sports including basketball, baseball, football, soccer, and lacrosse. We have both youth and adult leagues as well as drop-in games. Whether you're looking for competitive league play or casual pickup games, we have options for all skill levels.",
+      "Our Krav Maga program focuses on practical self-defense techniques that work in real-world situations. We teach students regardless of size or strength, emphasizing effectiveness and confidence. Our instructors are highly trained and create a supportive learning environment where students can develop both physical skills and mental strength.",
   },
   {
-    question: "Can I tour the facility before joining?",
+    question: "Can I try a class before committing?",
     answer:
-      "Absolutely! We encourage everyone to stop by and take a tour of our facility. We would love to meet you and show you our awesome staff and amenities. Contact us to schedule a visit and see why Proehlific Park is Greensboro's premier sports training center.",
+      "Absolutely! We encourage everyone to visit us and take a tour of our facility. We offer trial classes so you can experience our training firsthand. Contact us to schedule a visit and see why Universal Martial Arts Center is the best martial arts center in Chino Hills and the Inland Empire.",
   },
 ]
 
@@ -49,7 +49,7 @@ export function FAQ() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Frequently Asked Questions</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Get answers to common questions about Proehlific Park
+            Get answers to common questions about Universal Martial Arts Center
           </p>
         </div>
 
