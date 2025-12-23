@@ -1,0 +1,103 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: "Inter", "Inter Fallback";
+
+  /* Clean modern scheme - neutral light background with bold royal blue accents */
+  --color-background: #fafafa; /* Clean off-white, not gray-blue */
+  --color-foreground: #0f172a; /* Dark slate text for excellent readability */
+
+  --color-card: #ffffff; /* Pure white cards */
+  --color-card-foreground: #0f172a;
+
+  --color-popover: #ffffff;
+  --color-popover-foreground: #0f172a;
+
+  --color-primary: #1d4ed8; /* Bold royal blue - energetic and trustworthy */
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: #f1f5f9; /* Very light slate for subtle backgrounds */
+  --color-secondary-foreground: #0f172a;
+
+  --color-muted: #f1f5f9; /* Light slate */
+  --color-muted-foreground: #64748b;
+
+  --color-accent: #0ea5e9; /* Bright sky blue for highlights */
+  --color-accent-foreground: #ffffff;
+
+  --color-destructive: #dc2626;
+  --color-destructive-foreground: #ffffff;
+
+  --color-border: #e2e8f0;
+  --color-input: #e2e8f0;
+  --color-ring: #1d4ed8;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+
+  --color-sidebar: #ffffff;
+  --color-sidebar-foreground: #0f172a;
+  --color-sidebar-primary: #1d4ed8;
+  --color-sidebar-primary-foreground: #ffffff;
+  --color-sidebar-accent: #f1f5f9;
+  --color-sidebar-accent-foreground: #0f172a;
+  --color-sidebar-border: #e2e8f0;
+  --color-sidebar-ring: #1d4ed8;
+}
+
+.dark {
+  /* Dark Mode - Even deeper contrast */
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+
+  --color-card: #0a0e27;
+  --color-card-foreground: #ffffff;
+
+  --color-popover: #0a0e27;
+  --color-popover-foreground: #ffffff;
+
+  --color-primary: #00d4ff;
+  --color-primary-foreground: #000000;
+
+  --color-secondary: #1a1f3a;
+  --color-secondary-foreground: #ffffff;
+
+  --color-muted: #0a0e27;
+  --color-muted-foreground: #94a3b8;
+
+  --color-accent: #ff6b35;
+  --color-accent-foreground: #ffffff;
+
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #ffffff;
+
+  --color-border: #1a1f3a;
+  --color-input: #1a1f3a;
+  --color-ring: #00d4ff;
+
+  --color-sidebar: #000000;
+  --color-sidebar-foreground: #cbd5e1;
+  --color-sidebar-primary: #00d4ff;
+  --color-sidebar-primary-foreground: #000000;
+  --color-sidebar-accent: #0a0e27;
+  --color-sidebar-accent-foreground: #ffffff;
+  --color-sidebar-border: #1a1f3a;
+  --color-sidebar-ring: #00d4ff;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button {
+    @apply cursor-pointer;
+  }
+}
