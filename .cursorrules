@@ -1,0 +1,54 @@
+# Universal Martial Arts Center, Website
+
+This is a gym website built with Next.js. You are updating it for Universal Martial Arts Center,.
+
+## Project Structure
+- `pages/` or `app/` - Main page components
+- `components/` - Reusable UI components
+- `public/` - Static assets (images, etc.)
+- `styles/` - CSS and theme configuration
+- `vercel.json` - Vercel-level redirects (case-sensitive)
+- `next.config.ts` - Next.js config (path-based redirects only)
+
+## When Updating Content
+- Keep the existing component structure intact
+- Update text content to match the target gym
+- Replace placeholder images with real ones from the gym's website
+- Keep the template's existing fonts and color scheme (don't copy their old site's styling)
+- Update favicon (/app/favicon.ico) with the gym's logo
+- IMPORTANT: Find and verify their actual social media links from their website footer/header
+  - Don't leave placeholder social links - use their real profiles or remove if they don't have them
+
+## Redirects (CRITICAL)
+Case-sensitive redirects MUST go in `vercel.json`, NOT `next.config.ts`:
+- /Contact → /contact = vercel.json
+- /About → /about = vercel.json
+- /Classes → /classes = vercel.json
+
+This prevents redirect loops with Vercel's www domain redirects.
+
+Path-based redirects can stay in next.config.ts:
+- /testimonials → /reviews = next.config.ts
+- /classes/:path* → /classes = next.config.ts
+
+## SEO Requirements
+- Every page needs a unique, descriptive title tag with gym name and location
+- Add meta descriptions (150-160 chars) with relevant keywords
+- Use proper heading hierarchy (one H1 per page, followed by H2s, H3s)
+- Add alt text to all images
+- Include structured data for local business schema
+- Add OpenGraph meta tags for social sharing
+
+## AI Integration
+- The org ID and phone number are already configured in `.env.local`
+- Contact forms and AI features will work automatically
+- Don't modify the API routes or AI integration code
+
+## Guidelines
+- Use semantic HTML for SEO and accessibility
+- Maintain accessibility (ARIA labels, keyboard navigation)
+- Keep the responsive design working
+- Test on mobile and desktop views
+
+## After Completing Updates
+Run `git add . && git commit -m "Updated for Universal Martial Arts Center," && git push` to deploy.
